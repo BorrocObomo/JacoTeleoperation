@@ -75,8 +75,8 @@ void SampleListener::onFrame(const Leap::Controller& controller) {
 		cout << string(2, ' ') << handType << ", id: " << hand.id()
 		<< ", palm position: " << hand.palmPosition() << endl;*/
 		// Get the hand's normal vector and direction
-		const Leap::Vector normal = hand.palmNormal();
-		const Leap::Vector direction = hand.direction();
+		// const Leap::Vector normal = hand.palmNormal();
+		// const Leap::Vector direction = hand.direction();
 
 		//// Calculate the hand's pitch, roll, and yaw angles
 		//cout << string(2, ' ') << "pitch: " << direction.pitch() * Leap::RAD_TO_DEG << " degrees, "
